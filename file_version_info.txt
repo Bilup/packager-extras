@@ -31,14 +31,14 @@ VSVersionInfo(
       [
       StringTable(
         '040904b0',
-        [StringStruct('CompanyName', 'Thomas Weber'),
-        StringStruct('FileDescription', 'TurboWarp Packager Extras'),
-        StringStruct('FileVersion', '1.8.0'),
-        StringStruct('InternalName', 'turbowarp-packager-extras.exe'),
-        StringStruct('LegalCopyright', 'Copyright (C) 2022-2024 Thomas Weber'),
+        [StringStruct('CompanyName', 'Bilup Organization'),
+        StringStruct('FileDescription', 'Bilup Packager Extras'),
+        StringStruct('FileVersion', '1.0.0'),
+        StringStruct('InternalName', 'bilup-packager-extras.exe'),
+        StringStruct('LegalCopyright', 'Copyright (C) 2026 Bilup Organization'),
         StringStruct('OriginalFilename', ''),
-        StringStruct('ProductName', 'TurboWarp Packager Extras'),
-        StringStruct('ProductVersion', '1.8.0')])
+        StringStruct('ProductName', 'Bilup Packager Extras'),
+        StringStruct('ProductVersion', '1.0.0')])
       ]), 
     VarFileInfo([VarStruct('Translation', [1033, 1200])])
   ]

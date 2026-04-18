@@ -3,5 +3,5 @@
 # to extract and run the program using Wine.
 
 import shutil
-name = shutil.make_archive('dist/turbowarp-packager-extras', 'zip', 'dist', 'turbowarp-packager-extras')
+name = shutil.make_archive('dist/bilup-packager-extras', 'zip', 'dist', 'bilup-packager-extras')
 print(f'Generated {name}')

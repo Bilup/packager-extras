@@ -1,11 +1,11 @@
-# TurboWarp Packager Extras
+# Bilup Packager Extras
 
-Extra utilities to use after running the TurboWarp Packager. Currently, it can:
+Extra utilities to use after running the Bilup Packager. Currently, it can:
 
  - Fix the icon of the executable file
  - Create installers
 
-Most people will want to download the prebuilt versions from https://github.com/TurboWarp/packager-extras/releases
+Most people will want to download the prebuilt versions from https://github.com/Bilup/packager-extras/releases
 
 This is only intended to be run on Windows systems. It may work with things like Wine, but Wine support is not tested and not a priority.
 
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 python app.py
 
 # Create executable
-pyinstaller --noconsole --noconfirm --clean --add-data 'third-party;third-party' --add-data 'icon.png;.' --name "turbowarp-packager-extras" --version-file file_version_info.txt --icon icon.ico app.py
+pyinstaller --noconsole --noconfirm --clean --add-data "third-party;third-party" --add-data "icon.png;." --name "bilup-packager-extras" --version-file file_version_info.txt --icon icon.ico app.py
 
 # Create zip
 python generate-zip.py
@@ -44,6 +44,6 @@ Some third-party executables are included inside the repository in the `third-pa
 
 ## License
 
-TurboWarp Packager Extras is licensed under the GNU General Public License version 3. See LICENSE for more information.
+Bilup Packager Extras is licensed under the GNU General Public License version 3. See LICENSE for more information.
 
-The output of TurboWarp Packager Extras is a derivative work of the packaged project you selected but NOT a derivative work of TurboWarp Packager Extras itself.
+The output of Bilup Packager Extras is a derivative work of the packaged project you selected but NOT a derivative work of Bilup Packager Extras itself.
